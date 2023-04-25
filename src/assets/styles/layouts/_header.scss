@@ -1,6 +1,16 @@
+.cabecera {
+  width: 100%;
+  background-color: $color-primario;
+
+
+  @media (min-width: $mqMinWidthDesktop) {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
 .contenedor-header {
   @extend %contenedor;
-
 }
 
 .lista-enlaces-header {

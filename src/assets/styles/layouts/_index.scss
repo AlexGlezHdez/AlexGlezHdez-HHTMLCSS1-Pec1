@@ -4,6 +4,16 @@
   background-size: cover;
 }
 
+.cuerpo_indice .cabecera {
+  background-color: unset;
+}
+
+.contenedor-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 h1 {
   font-size: 3rem;
   color: $color-secundario;
@@ -22,8 +32,15 @@ h1 small {
   color: $color-secundario;
   font-size: 1rem;
 
+  max-width: 600px;
+
   text-align: left;
   padding: 1rem;
+  box-shadow: 0 0 15px 10px rgba($color-primario, 0.6);
+  margin: 1rem;
 
-  background-color: $color-primario;
+  background-color: rgba($color-primario, 0.6);
+
+  border-radius: 15px;
+
 }

@@ -4,23 +4,29 @@
   padding: 1rem;
   margin: 0 auto;
   text-align: center;
+}
+
 
 %enlace {
+  color: $color-secundario;
   text-decoration: none;
   cursor: pointer;
-
   &:hover {
-    color: $color-primario;
-  }
-
-}
-
-
-  @media (min-width: $mqMinWidthTablet) {
-    padding: 2rem;
+    color: $color-contraste;
   }
 }
 
+.enlace {
+  @extend %enlace;
+}
+
+.enlace-contraste {
+  @extend %enlace;
+  color: $color-contraste;
+  &:hover {
+    color: $color-secundario;
+  }
+}
 
 
 body {
