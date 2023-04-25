@@ -8,7 +8,13 @@
 %enlace {
   text-decoration: none;
   cursor: pointer;
+
+  &:hover {
+    color: $color-primario;
+  }
+
 }
+
 
   @media (min-width: $mqMinWidthTablet) {
     padding: 2rem;

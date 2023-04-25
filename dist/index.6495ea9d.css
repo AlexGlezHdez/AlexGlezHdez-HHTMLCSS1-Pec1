@@ -33,6 +33,10 @@ a {
   text-decoration: none;
 }
 
+.contenedor-pie .enlace-header:hover, .contenedor-main .enlace-header:hover, .contenedor-header .enlace-header:hover {
+  color: #66275a;
+}
+
 @media (width >= 640px) {
   .contenedor-pie, .contenedor-main, .contenedor-header {
     padding: 2rem;
