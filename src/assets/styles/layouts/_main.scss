@@ -1,0 +1,5 @@
+.contenedor-main {
+  @extend %contenedor;
+
+  flex-grow: 1;
+}

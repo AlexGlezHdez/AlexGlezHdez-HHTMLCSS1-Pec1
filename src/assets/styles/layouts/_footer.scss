@@ -1,0 +1,10 @@
+.pie {
+  width: 100%;
+
+  color: $color-secundario;
+  background-color: $color-primario;
+}
+
+.contenedor-pie {
+  @extend %contenedor;
+}

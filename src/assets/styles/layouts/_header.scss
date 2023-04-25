@@ -1,0 +1,16 @@
+.contenedor-header {
+  @extend %contenedor;
+
+}
+
+.lista-enlaces-header {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.enlace-header {
+  @extend %enlace;
+
+  font-size: 1.2rem;
+  color: $color-secundario;
+}

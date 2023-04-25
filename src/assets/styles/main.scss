@@ -3,12 +3,8 @@
  * Do not include SCSS code in this file.
  */
 
-/**
- * Import variables
- */
-
-// @import "variables";
-
+// Variables
+ @import "variables";
 
  // Reset de propiedades
  @import "reset";
@@ -30,8 +26,15 @@
   * It's a best practice to use a different partial for each page
   */
 
- //@import "layouts/header";
- //@import "layouts/home";
+ // ficheros comunes
+@import "layouts/common";
+@import "layouts/header";
+@import "layouts/main";
+@import "layouts/footer";
+
+// Estilos propios de cada pagina
+@import "layouts/index";
+
 
  /**
   * Do NOT include anything else in this file!

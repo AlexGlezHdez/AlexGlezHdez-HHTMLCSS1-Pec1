@@ -2,21 +2,24 @@
 
 <html lang="es">
   <include src="./views/head.html" locals='{ "titulo": "Cultura rural: Valdegeña - Índice"}'></include>
-  <body>
-    Imagen de fondo
-    <h1><small>Pueblos de la España vaciada:</small>Valdegeña</h1>
+  <body class="cuerpo_indice">
+    <include src="./views/header.html"></include>
 
-    <p>Un pequeño texto introductorio</p>
+    <main class="contenedor-main">
+      <h1><small>Cultura rural:</small>Valdegeña</h1>
 
-    <div>
-      <a href="presentacion.html">Presentación</a>
-      <a href="categorias.html">Categorías</a>
-      <a href="enlaces.html">Enlaces</a>
-      <a href="presentacion.html">Presentación</a>
-    </div>
+      <p class="introduccion">
+        Valdegeña es uno de esos pequeños pueblos pertenecientes a lo que hoy en día se denomina la España vaciada.
+      </p>
+
+      <div>
+        <a href="presentacion.html">Presentación</a>
+        <a href="categorias.html">Categorías</a>
+        <a href="enlaces.html">Enlaces</a>
+      </div>
+    </main>
 
     <include src="./views/footer.html"></include>
-
     <script type="module" src="./assets/scripts/main.js"></script>
   </body>
 </html>

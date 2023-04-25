@@ -1,0 +1,29 @@
+.cuerpo_indice {
+  background-image: url(/src/assets/images/portada.jpg);
+  background-position-x: 40%;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3rem;
+  color: $color-secundario;
+  font-family: $font-family-sans-serif;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+h1 small {
+  font-size: 1.2rem;
+  display: block;
+}
+
+.introduccion {
+  font-family: $font-family-sans-serif;
+  color: $color-secundario;
+  font-size: 1rem;
+
+  text-align: left;
+  padding: 1rem;
+
+  background-color: $color-primario;
+}

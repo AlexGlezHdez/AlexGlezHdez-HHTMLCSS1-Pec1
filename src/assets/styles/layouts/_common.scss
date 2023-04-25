@@ -1,0 +1,25 @@
+%contenedor {
+  width: 100%;
+  max-width: 1000px;
+  padding: 1rem;
+  margin: 0 auto;
+  text-align: center;
+
+%enlace {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+  @media (min-width: $mqMinWidthTablet) {
+    padding: 2rem;
+  }
+}
+
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: $font-family-sans-serif;
+}

@@ -20,4 +20,78 @@ a {
   text-decoration: none;
 }
 
+.contenedor-pie, .contenedor-main, .contenedor-header {
+  width: 100%;
+  max-width: 1000px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.contenedor-pie .enlace-header, .contenedor-main .enlace-header, .contenedor-header .enlace-header {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+@media (width >= 640px) {
+  .contenedor-pie, .contenedor-main, .contenedor-header {
+    padding: 2rem;
+  }
+}
+
+body {
+  height: 100vh;
+  flex-direction: column;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  display: flex;
+}
+
+.lista-enlaces-header {
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.enlace-header {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.contenedor-main {
+  flex-grow: 1;
+}
+
+.pie {
+  width: 100%;
+  color: #fff;
+  background-color: #66275a;
+}
+
+.cuerpo_indice {
+  background-image: url("portada.a76e7b10.jpg");
+  background-position-x: 40%;
+  background-size: cover;
+}
+
+h1 {
+  color: #fff;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 3rem;
+}
+
+h1 small {
+  font-size: 1.2rem;
+  display: block;
+}
+
+.introduccion {
+  color: #fff;
+  text-align: left;
+  background-color: #66275a;
+  padding: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 1rem;
+}
+
 /*# sourceMappingURL=index.6495ea9d.css.map */
