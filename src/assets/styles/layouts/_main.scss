@@ -3,3 +3,31 @@
 
   flex-grow: 1;
 }
+
+.titular-seccion {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.parrafo {
+  text-align: left;
+  line-height: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.multimedia {
+  width: 100%;
+  max-width: 800px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.etiqueta-multimedia {
+  text-align: right;
+  margin: 5px 1rem 0 0;
+  font-size: 0.8rem;
+}
+
+.imagen-texto {
+  @extend %imagen;
+}

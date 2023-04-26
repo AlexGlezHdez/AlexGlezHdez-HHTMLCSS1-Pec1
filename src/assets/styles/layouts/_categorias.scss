@@ -1,0 +1,42 @@
+.listado-categorias {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.categoria {
+  text-align: left;
+}
+
+.titulo-categoria {
+  font-size: 1.3rem;
+  color: $color-primario;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.listado-subcategorias {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 30px;
+  margin-bottom: 1.2rem;
+}
+
+.subcategoria {
+  line-height: 1.5rem;
+}
+
+.boliche {
+  width: 10px;
+  height: 10px;
+  background-color:$color-primario;
+  display:inline-block;
+  margin-right:10px
+}
+
+.enlace-subcategoria {
+  @extend %enlace;
+
+  color: $color-texto;
+}

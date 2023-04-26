@@ -28,13 +28,22 @@ a {
   padding: 1rem;
 }
 
-.enlace-header, .enlace-contraste, .enlace {
+.enlace-subcategoria, .enlace-header, .enlace-contraste, .enlace {
   color: #fff;
   cursor: pointer;
   text-decoration: none;
 }
 
-.enlace-header:hover, .enlace-contraste:hover, .enlace:hover, .enlace-contraste {
+.enlace-subcategoria:hover, .enlace-header:hover, .enlace-contraste:hover, .enlace:hover {
+  color: #f6a428;
+}
+
+.imagen-texto {
+  width: 100%;
+  object-fit: contain;
+}
+
+.enlace-contraste {
   color: #f6a428;
 }
 
@@ -62,7 +71,8 @@ body {
 }
 
 .lista-enlaces-header {
-  justify-content: space-evenly;
+  justify-content: space-between;
+  align-items: center;
   display: flex;
 }
 
@@ -71,8 +81,36 @@ body {
   font-size: 1.2rem;
 }
 
+.imagen-escudo {
+  height: 30px;
+}
+
 .contenedor-main {
   flex-grow: 1;
+}
+
+.titular-seccion {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+.parrafo {
+  text-align: left;
+  margin-bottom: 1rem;
+  line-height: 1.2rem;
+}
+
+.multimedia {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.etiqueta-multimedia {
+  text-align: right;
+  margin: 5px 1rem 0 0;
+  font-size: .8rem;
 }
 
 .pie {
@@ -130,6 +168,47 @@ h1 small {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 1rem;
   box-shadow: 0 0 15px 10px #66275a99;
+}
+
+.listado-categorias {
+  flex-direction: column;
+  align-items: start;
+  display: flex;
+}
+
+.categoria {
+  text-align: left;
+}
+
+.titulo-categoria {
+  color: #66275a;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.listado-subcategorias {
+  flex-direction: column;
+  align-items: start;
+  margin-bottom: 1.2rem;
+  padding-left: 30px;
+  display: flex;
+}
+
+.subcategoria {
+  line-height: 1.5rem;
+}
+
+.boliche {
+  width: 10px;
+  height: 10px;
+  background-color: #66275a;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.enlace-subcategoria {
+  color: #000;
 }
 
 /*# sourceMappingURL=index.6495ea9d.css.map */

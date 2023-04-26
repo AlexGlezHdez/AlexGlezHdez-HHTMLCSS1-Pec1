@@ -6,16 +6,49 @@
     <include src="./views/header.html" locals='{ "class": "-fondo" }'></include>
 
     <main class="contenedor-main">
-      <h2>Categorías</h2>
+      <article>
+        <h2 class="titular-seccion">Categorías</h2>
 
-      Pequeña página a modo de listado de resúmenes de las páginas de detalle
-
-      <ul>
-        <li><a href="">Geografía de Valdegeña</a></li>
-        <li><a href="">Historia de Valdegeña</a></li>
-        <li><a href="">Anecdotario</a></li>
-        <li><a href="">Galería de imágenes</a></li>
-      </ul>
+        <ul class="listado-categorias">
+          <li class="categoria">
+            <h3 class="titulo-categoria">Datos sobre Valdegeña</h3>
+            <ul class="listado-subcategorias">
+              <li class="subcategoria">
+                <span class="boliche"></span><a href="" class="enlace-subcategoria">Un poco de geografía</a>
+              </li>
+              <li class="subcategoria">
+                <span class="boliche"></span><a href="" class="enlace-subcategoria">Historia de Valdegeña</a>
+              </li>
+              <li class="subcategoria">
+                <span class="boliche"></span><a href="" class="enlace-subcategoria">El presente de Valdegeña</a>
+              </li>
+            </ul>
+          </li>
+          <li class="categoria">
+            <h3 class="titulo-categoria">Anecdotas y curiosidades</h3>
+            <ul class="listado-subcategorias">
+              <li class="subcategoria">
+                <span class="boliche"></span><a href="" class="enlace-subcategoria">Valdegeña en el cine</a>
+              </li>
+              <li class="subcategoria">
+                <span class="boliche"></span
+                ><a href="" class="enlace-subcategoria">La predicción de la crisis del 2011</a>
+              </li>
+            </ul>
+          </li>
+          <li class="categoria">
+            <h3 class="titulo-categoria">Valdegeña en internet</h3>
+            <ul class="listado-subcategorias">
+              <li class="subcategoria">
+                <span class="boliche"></span><a href="" class="enlace-subcategoria">Galería de imágenes</a>
+              </li>
+              <li class="subcategoria">
+                <span class="boliche"></span><a href="" class="enlace-subcategoria">Enlaces de interés</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </article>
     </main>
 
     <include src="./views/footer.html"></include>

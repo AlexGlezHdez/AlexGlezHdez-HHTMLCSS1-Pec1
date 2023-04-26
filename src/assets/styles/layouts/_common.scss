@@ -16,6 +16,11 @@
   }
 }
 
+%imagen {
+  width: 100%;
+  object-fit: contain;
+}
+
 .enlace {
   @extend %enlace;
 }
@@ -27,6 +32,8 @@
     color: $color-secundario;
   }
 }
+
+.imagen-texto {}
 
 
 body {

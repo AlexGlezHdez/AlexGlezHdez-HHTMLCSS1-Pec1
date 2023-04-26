@@ -15,7 +15,8 @@
 
 .lista-enlaces-header {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .enlace-header {
@@ -23,4 +24,8 @@
 
   font-size: 1.2rem;
   color: $color-secundario;
+}
+
+.imagen-escudo {
+  height: 30px;
 }
