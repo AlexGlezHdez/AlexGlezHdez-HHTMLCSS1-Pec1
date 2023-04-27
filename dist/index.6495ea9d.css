@@ -77,7 +77,7 @@ body {
 }
 
 .lista-enlaces-header {
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   display: flex;
 }
@@ -102,8 +102,10 @@ body {
 }
 
 .titular-seccion {
+  color: #66275a;
   margin-bottom: 1.5rem;
   font-size: 2rem;
+  font-weight: bold;
 }
 
 .parrafo {
@@ -147,8 +149,26 @@ body {
   font-style: italic;
 }
 
-.enlace-articulo {
+h3 {
+  text-align: left;
   color: #66275a;
+  margin-bottom: .5rem;
+  margin-left: 1rem;
+  padding-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.listado-articulos {
+  text-align: left;
+  margin-left: 2rem;
+  line-height: 1.5rem;
+}
+
+.enlace-articulo {
+  color: #000;
+  font-size: .85rem;
+  font-style: italic;
 }
 
 .pie {

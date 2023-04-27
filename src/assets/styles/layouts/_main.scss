@@ -11,6 +11,9 @@
 .titular-seccion {
   font-size: 2rem;
   margin-bottom: 1.5rem;
+
+  font-weight: bold;
+  color: #66275a;
 }
 
 .parrafo {
@@ -64,8 +67,26 @@
   @extend %imagen;
 }
 
+h3 {
+  text-align: left;
+  margin-left: 1rem;
+  padding-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  color: $color-primario;
+  font-weight: bold;
+}
+
+.listado-articulos {
+	text-align: left;
+	margin-left: 2rem;
+	line-height: 1.5rem;
+}
+
 .enlace-articulo {
   @extend %enlace;
 
-  color: $color-primario;
+  color: $color-texto;
+  font-style: italic;
+  font-size: 0.85rem;
 }
