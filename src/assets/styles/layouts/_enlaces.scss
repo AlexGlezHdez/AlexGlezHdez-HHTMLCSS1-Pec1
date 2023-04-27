@@ -1,5 +1,7 @@
 .contenedor-referencias {
   @extend %contenedor;
+
+  padding: unset;
 }
 
 .listado-referencias {
@@ -47,3 +49,4 @@
   text-align: left;
   font-style: italic;
 }
+

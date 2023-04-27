@@ -2,6 +2,10 @@
   @extend %contenedor;
 
   flex-grow: 1;
+
+  @media (min-width: $mqMinWidthTablet) {
+    padding: 2rem;
+  }
 }
 
 .titular-seccion {
@@ -27,6 +31,21 @@
   max-width: 720px;
 }
 
+.wrapper-video {
+  position: relative;
+  padding-top: 56.25%;
+  width: 100%;
+  height: 0;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 0;
+  width: 100%;
+  height: 100%;
+}
 
 .etiqueta-multimedia {
   text-align: right;
@@ -43,4 +62,10 @@
 
 .imagen-texto {
   @extend %imagen;
+}
+
+.enlace-articulo {
+  @extend %enlace;
+
+  color: $color-primario;
 }
