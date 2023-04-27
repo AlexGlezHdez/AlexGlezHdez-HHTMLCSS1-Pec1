@@ -28,19 +28,25 @@ a {
   padding: 1rem;
 }
 
-.enlace-referencia, .enlace-subcategoria, .enlace-header, .enlace-contraste, .enlace {
+.enlace-referencia, .enlace-subcategoria, .enlace-fuente, .enlace-header, .enlace-contraste, .enlace {
   color: #fff;
   cursor: pointer;
   text-decoration: none;
 }
 
-.enlace-referencia:hover, .enlace-subcategoria:hover, .enlace-header:hover, .enlace-contraste:hover, .enlace:hover {
+.enlace-referencia:hover, .enlace-subcategoria:hover, .enlace-fuente:hover, .enlace-header:hover, .enlace-contraste:hover, .enlace:hover {
   color: #f6a428;
 }
 
 .imagen-texto {
   width: 100%;
   object-fit: contain;
+}
+
+.multimedia-mediana, .multimedia {
+  width: 100%;
+  margin: 0 auto 1rem;
+  padding: 10px;
 }
 
 .enlace-contraste {
@@ -101,16 +107,22 @@ body {
 }
 
 .multimedia {
-  width: 100%;
   max-width: 800px;
-  margin: 0 auto;
-  padding: 10px;
+}
+
+.multimedia-mediana {
+  max-width: 720px;
 }
 
 .etiqueta-multimedia {
   text-align: right;
   margin: 5px 1rem 0 0;
   font-size: .8rem;
+}
+
+.enlace-fuente {
+  color: #66275a;
+  font-style: italic;
 }
 
 .pie {
@@ -170,6 +182,32 @@ h1 small {
   box-shadow: 0 0 15px 10px #66275a99;
 }
 
+.cita {
+  margin-bottom: 2rem;
+}
+
+.parrafo-cita {
+  text-align: left;
+  margin-bottom: 1.2rem;
+  padding-left: 2.4rem;
+  padding-right: 2rem;
+  font-family: Georgia, Times New Roman, serif;
+  font-style: italic;
+  line-height: 1.3;
+}
+
+.fuente-cita {
+  text-align: right;
+  padding-right: 2rem;
+  display: block;
+}
+
+@media (width >= 640px) {
+  .fuente-cita {
+    padding-right: 4rem;
+  }
+}
+
 .listado-categorias {
   flex-direction: column;
   align-items: start;
@@ -213,18 +251,21 @@ h1 small {
 
 .listado-referencias {
   width: 100%;
-  max-width: 600px;
+  max-width: 640px;
   flex-direction: column;
   align-items: start;
   margin: 0 auto;
   display: flex;
 }
 
+.item-referencia {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
 .referencia {
   width: 100%;
-  flex-wrap: wrap;
-  align-items: center;
-  margin-bottom: 1rem;
+  margin-bottom: 5px;
   display: flex;
 }
 
@@ -233,15 +274,20 @@ h1 small {
   height: 10px;
   background-color: #f6a428;
   border-radius: 3px;
+  flex-shrink: 0;
+  margin-top: .25rem;
   margin-right: .75rem;
   display: inline-block;
+}
+
+.texto-referencia {
+  text-align: left;
 }
 
 .enlace-referencia {
   color: #66275a;
   text-align: left;
   flex-basis: 100%;
-  margin-top: 5px;
   margin-left: 3rem;
   font-style: italic;
 }

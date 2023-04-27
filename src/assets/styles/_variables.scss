@@ -8,10 +8,10 @@ $font-family-serif: "Georgia", "Times New Roman", serif;
 $color-primario: #66275a;
 $color-secundario: #fff;
 $color-texto: #000;
+$color-contraste: rgb(246, 164, 40);
 
 $color-fondo: color.scale($color-primario, $lightness: 70%);
 
-$color-contraste: rgb(246, 164, 40);
 
 $mqMinWidthTablet: 640px;
 $mqMinWidthDesktop: 960px;

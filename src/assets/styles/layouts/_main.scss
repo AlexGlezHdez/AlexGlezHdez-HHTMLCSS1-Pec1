@@ -16,16 +16,29 @@
 }
 
 .multimedia {
-  width: 100%;
+  @extend %multimedia;
+
   max-width: 800px;
-  padding: 10px;
-  margin: 0 auto;
 }
+
+.multimedia-mediana {
+  @extend %multimedia;
+
+  max-width: 720px;
+}
+
 
 .etiqueta-multimedia {
   text-align: right;
   margin: 5px 1rem 0 0;
   font-size: 0.8rem;
+}
+
+.enlace-fuente {
+  @extend %enlace;
+
+  color: $color-primario;
+  font-style: italic;
 }
 
 .imagen-texto {

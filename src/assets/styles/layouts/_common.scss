@@ -21,6 +21,18 @@
   object-fit: contain;
 }
 
+
+%multimedia {
+  width: 100%;
+  padding: 10px;
+  margin: {
+    top:0;
+    right: auto;
+    bottom: 1rem;
+    left: auto;
+  }
+}
+
 .enlace {
   @extend %enlace;
 }
@@ -32,8 +44,6 @@
     color: $color-secundario;
   }
 }
-
-.imagen-texto {}
 
 
 body {

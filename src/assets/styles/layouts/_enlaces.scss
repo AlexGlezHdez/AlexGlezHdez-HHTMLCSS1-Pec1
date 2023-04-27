@@ -8,17 +8,19 @@
   align-items: start;
 
   width: 100%;
-  max-width: 600px;
+  max-width: 640px;
   margin: 0 auto;
+}
+
+.item-referencia {
+  margin-bottom: 1rem;
+  text-align: left;
 }
 
 .referencia {
   display: flex;
-  flex-wrap: wrap;
   width: 100%;
-  align-items: center;
-  margin-bottom: 1rem;
-
+  margin-bottom: 5px;
 }
 
 .boliche-referencia {
@@ -26,11 +28,14 @@
   height: 10px;
   background-color:$color-contraste;
   display:inline-block;
+  margin-top: 0.25rem;
   margin-right: 0.75rem;
   border-radius: 3px;
+  flex-shrink: 0;
 }
 
 .texto-referencia {
+  text-align: left;
 }
 
 .enlace-referencia {
@@ -38,7 +43,6 @@
 
   flex-basis: 100%;
   color: $color-primario;
-  margin-top: 5px;
   margin-left: 3rem;
   text-align: left;
   font-style: italic;
