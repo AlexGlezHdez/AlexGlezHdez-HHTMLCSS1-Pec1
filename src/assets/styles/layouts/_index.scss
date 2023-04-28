@@ -20,6 +20,8 @@ h1 {
   font-family: $font-family-sans-serif;
   margin-top: 3rem;
   margin-bottom: 3rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px $color-primario;
 }
 
 h1 small {

@@ -3,23 +3,14 @@
  * Do not include SCSS code in this file.
  */
 
+// Reset de propiedades
+@import "reset";
+
 // Variables
- @import "variables";
+@import "variables";
 
- // Reset de propiedades
- @import "reset";
-
- /**
-  * Import npm dependencies
-  * see: https://v2.parceljs.org/features/module-resolution/
-  * see commented examples below
-  */
-
- // @import "some-node-module";
- // @import "@some-company/some-node-module";
-
- // Estilos de SplideJS
- //@import "npm:@splidejs/splide/src/css/themes/sea-green";
+// Estilos de SplideJS
+@import "npm:@splidejs/splide/src/css/themes/sea-green";
 
  /**
   * Import layouts
